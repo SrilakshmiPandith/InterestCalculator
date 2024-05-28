@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  display: flex;
+  background-color: rgb(170, 195, 161);
+  color: #213547;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 10px;
+}
+
+h3{
+  margin: 10px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgb(137, 158, 131);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+/*button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}*/
+
+#header img{
+  height: 150px;
+  width: 150px;
+}
+
+#header{
+  border: double #213547;
+  margin: 10px;
+}
+
+@media (min-width: 1000px){
+#container{
+  display: flex;
+  justify-content: space-evenly;
+}
+}
+
+#inputs{
+  padding: 20px;
+  margin: 10px;
+  border: solid 1px black;
+  text-align: left;
+}
+
+#inputs .active{
+  background-color: #3498db;
+}
+
+#top{
+  display: flex;
+}
+
+.styleicon{
+  font-size: 30px;
+}
+.box{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 20px 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+}
+
+.box .slider{
+  height: 40px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.box .slider input{
+  height: 10px;
+  width: 100%;
+  outline: none;
+  background: #f2f2f2;
+  border-radius: 25px;
+  box-shadow: inset 0px 0px 4px rgb(81, 197, 71);
+}
+
+.box .value{
+  font-size: 30px;
+  font-weight: 600;
+  height: 30px;
+  font-family: sans-serif;
+  color: #3498db;
+  text-align: center;
+  border: solid white 2px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"]{
+  width: 120px;
+  justify-content: left;
+}
+.flex{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.flex .unit{
+  font-size: 30px;
+  width: 25px;
+  padding: 0 10px 0 20px;
+  color: #3498db;
+  border-left: 0;
+  background: white;
+  align-items: center;
+}
+
+#typ{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#results{
+  padding: 20px;
+  margin: 10px;
+  border: solid 1px black;
+  text-align: left;
+  align-items: center;
+}
+
+#results h2{
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+.chartArea{
+  height: 300px;
+  width: 75%;
+  margin: auto;
+  border: 3px solid rgb(125, 168, 125);
+  padding: 10px;
+}
+.items{
+  display: flex;
+  align-items: center;
+}
+
+table, th, td {
+  justify-content: center;
+  border: 1px solid;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
